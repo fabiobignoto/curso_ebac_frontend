@@ -1,0 +1,44 @@
+body{
+    display: block;
+    text-align: center;
+}
+
+form{
+    padding: 8px;
+    width: 280px;
+    border: inset;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+.number-input {
+    text-align: center;
+    width: 140px;
+    height: 35px;
+}
+
+.input-success{
+    background-color: darkgreen;
+    color: white;
+    width: 250px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px outset rgb(0, 255, 115);
+}
+
+.input-error{
+    background-color: darkred;
+    color: white;
+    width: 450px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px outset rgb(199, 79, 79);
+}
