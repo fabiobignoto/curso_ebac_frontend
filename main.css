@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    margin: 150px auto 50px auto;
+}
+
+h1{
+    font-size: 30px;
+
+}
+
+form input,
+form button{
+    font-size: 25px;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+form input{
+    max-width: 720px;
+    width: 80%;
+    background-color: #EEEEEE;
+}
+
+form button{
+    background-color: green;
+    color: #EFEFEF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    font-size: 20px;
+    max-width: 700px;
+    width: 80%;
+    list-style-position: inside;
+    margin: 5px auto;
+}
+
+li{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.completed-task{
+    text-decoration: line-through;
+}
