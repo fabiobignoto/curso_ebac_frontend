@@ -1,0 +1,19 @@
+@use 'variaveis';
+
+body{
+    background-color: variaveis.$corPrincipal;
+    header{
+        color: variaveis.$corTitulo;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2{
+        text-align: center;
+        color: variaveis.$corTitulo;
+    }
+
+    p {
+        padding: 10px 50px;
+    }
+}
