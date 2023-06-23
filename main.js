@@ -17,7 +17,7 @@ function Pessoa(nome, cpf, dataNasc){
 }
 
 function Cliente(nome, cpf, dataNasc, registro){
-    Pessoa.call(nome, cpf, dataNasc);
+    Pessoa.call(this,nome, cpf, dataNasc);
     _registro  = registro;
     _divida = 0;
 
@@ -36,7 +36,7 @@ function Cliente(nome, cpf, dataNasc, registro){
 }
 
 function Funcionario (nome, cpf, dataNasc, cargo, salario){
-    Pessoa.call(nome, cpf, dataNasc);
+    Pessoa.call(this,nome, cpf, dataNasc);
     _cargo = cargo;
     _salario = salario;
 
